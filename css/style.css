@@ -1,0 +1,1994 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+/* line 11, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 8, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+body {
+  font-family: 'Lato', sans-serif;
+  color: #1E212C;
+  background: #fffffff3;
+}
+
+/* line 13, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 18, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* line 23, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+button {
+  border: none;
+  background: rgba(255, 63, 58, 0);
+}
+
+/* line 26, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+button:hover {
+  cursor: pointer;
+}
+
+/* line 29, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+/* line 33, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section {
+  height: 1080px;
+  padding-top: 20px;
+  margin-bottom: 180px;
+  background: rgba(255, 63, 58, 0.2);
+  overflow: hidden;
+}
+
+/* line 39, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__container {
+  z-index: 2;
+}
+
+/* line 41, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__header {
+  display: flex;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  color: #424551;
+  margin-bottom: 128px;
+}
+
+/* line 48, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__logo {
+  margin-right: 60px;
+}
+
+/* line 50, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__login {
+  display: flex;
+  align-items: center;
+}
+
+/* line 53, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__content {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 189px;
+}
+
+/* line 59, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__subcontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 63, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__subcontent-title {
+  display: flex;
+  align-items: center;
+  margin-right: 66px;
+}
+
+/* line 67, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__subcontent-title:last-child {
+  margin-right: 0;
+}
+
+/* line 69, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 100px;
+  background: #FF3F3A;
+  margin-right: 66px;
+}
+
+/* line 75, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  margin-right: 12px;
+}
+
+/* line 82, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__subtitle {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/* line 88, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__shapes {
+  position: absolute;
+  right: 85.73%;
+  top: 21.2%;
+  bottom: 69.91%;
+}
+
+/* line 93, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__shapes-rotate {
+  position: absolute;
+  left: 86.88%;
+  right: 7.4%;
+  top: 3.04%;
+  bottom: 86.78%;
+}
+
+/* line 99, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__semicircle {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 533px;
+  top: 758px;
+}
+
+/* line 105, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__circles {
+  position: absolute;
+  width: 284px;
+  height: 284px;
+  left: -10px;
+  top: 896px;
+}
+
+/* line 111, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__dots {
+  position: absolute;
+  width: 187px;
+  height: 137px;
+  right: 8px;
+  top: 749px;
+  opacity: 0.4;
+}
+
+/* line 118, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__dots img {
+  width: 187px;
+  height: 137px;
+}
+
+/* line 121, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.main-section__shapes-semicircle {
+  position: absolute;
+  width: 88px;
+  height: 47px;
+  left: 582px;
+  top: 487px;
+}
+
+/* line 128, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.btn-bg {
+  color: white;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+/* line 133, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.btn-bg:hover {
+  transition: 0.4s;
+  transform: scale(1.02);
+}
+
+/* line 137, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.rotate-shapes {
+  transform: rotate(140deg);
+}
+
+/* line 140, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.nav-menu {
+  margin-right: 225px;
+}
+
+/* line 142, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+}
+
+/* line 144, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 40px;
+}
+
+/* line 146, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.nav-menu__list-item:nth-child(5) {
+  margin: 0;
+}
+
+/* line 148, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.nav-menu__list-item:hover {
+  color: #FF3F3A;
+  transform: scale(1.1);
+}
+
+/* line 153, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.login__btn {
+  width: 206px;
+  height: 52px;
+  margin-right: 36px;
+}
+
+/* line 157, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.login__img {
+  margin-right: 9px;
+}
+
+/* line 160, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.btn {
+  color: #FF3F3A;
+  border: 1px solid #FF3F3A;
+  background: rgba(255, 64, 58, 0);
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+/* line 166, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.btn:hover {
+  color: white;
+  background: #FF3F3A;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* line 173, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.left-wrapper {
+  margin-right: 180px;
+}
+
+/* line 175, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.left-wrapper__showreel {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+/* line 180, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.left-wrapper__showreel-bg {
+  height: 84px;
+  width: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+/* line 187, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.left-wrapper__showreel-bg:hover {
+  background-color: rgba(255, 63, 58, 0.3);
+  border-radius: 100px;
+  transition: 0.4s;
+}
+
+/* line 191, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.left-wrapper__showreel-subtitle {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1E212C;
+}
+
+/* line 198, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.left-wrapper__title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 130%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 60px;
+}
+
+/* line 206, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.left-wrapper__btn-small {
+  width: 148px;
+  height: 52px;
+  margin-right: 24px;
+}
+
+/* line 210, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.left-wrapper__btn {
+  width: 200px;
+  height: 52px;
+}
+
+/* line 215, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.mark {
+  width: 15px;
+  height: 14px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+}
+
+/* line 220, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.check {
+  margin-bottom: 0;
+}
+
+/* line 222, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section {
+  position: relative;
+  min-height: 560px;
+  margin-bottom: 180px;
+}
+
+/* line 226, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__container {
+  min-height: 560px;
+}
+
+/* line 228, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__img {
+  width: 705px;
+  height: 560px;
+  margin-right: 135px;
+}
+
+/* line 233, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__container {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 236, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__title {
+  margin-bottom: 40px;
+}
+
+/* line 238, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__who {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+/* line 246, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__createx {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+/* line 253, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__subtitle {
+  width: 390px;
+  height: 294px;
+  margin-bottom: 48px;
+}
+
+/* line 257, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__txt {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+
+/* line 264, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__btn {
+  width: 161px;
+  height: 44px;
+}
+
+/* line 267, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* line 271, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__dots-yellow {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+}
+
+/* line 275, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.we-section__circle {
+  position: absolute;
+  right: 0;
+  top: 277px;
+  opacity: 0.2;
+}
+
+/* line 281, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.small-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
+
+/* line 289, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.off-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+/* line 301, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.courses-section {
+  min-height: 854px;
+  margin-bottom: 180px;
+}
+
+/* line 305, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.courses-section__btn {
+  width: 202px;
+  height: 52px;
+}
+
+/* line 308, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.courses-section__sub-title {
+  margin-bottom: 8px;
+}
+
+/* line 310, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.courses-section__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 60px;
+}
+
+/* line 315, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.courses-section__course {
+  width: 600px;
+  height: 214px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  transition: .4s;
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+}
+
+/* line 323, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.courses-section__course:hover {
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+  transform: scale(1.05);
+  transition: .4s;
+  cursor: auto;
+}
+
+/* line 328, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.courses-section__course-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  min-height: 702px;
+}
+
+/* line 335, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 338, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course img {
+  margin-right: 32px;
+}
+
+/* line 340, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__box {
+  background: #03CEA4;
+}
+
+/* line 342, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__box-2 {
+  background: #5A87FC;
+}
+
+/* line 344, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__box-3 {
+  background: #F89828;
+}
+
+/* line 346, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__box-4 {
+  background: #03CEA4;
+}
+
+/* line 348, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__box-5 {
+  background: #5A87FC;
+}
+
+/* line 350, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__box-6 {
+  background: #F52F6E;
+}
+
+/* line 352, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* line 363, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__title {
+  display: flex-block;
+  flex-direction: column;
+  justify-content: start;
+}
+
+/* line 367, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+  margin-bottom: 20px;
+}
+
+/* line 375, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__subtext {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18p;
+  line-height: 150%;
+  color: #787A80;
+}
+
+/* line 382, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.course__subtext span {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FF4242;
+}
+
+/* line 392, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section {
+  min-height: 698px;
+  margin-bottom: 120px;
+}
+
+/* line 395, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+/* line 401, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section__sub-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1E212C;
+}
+
+/* line 410, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1228px;
+  height: 50px;
+  margin-bottom: 60px;
+}
+
+/* line 417, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section__buttons img {
+  margin-right: 8px;
+}
+
+/* line 419, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section__button {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #9A9CA5;
+  padding: 10px 74px;
+}
+
+/* line 429, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section__button:hover {
+  border: 1px solid #FF3F3A;
+  border-radius: 4px;
+  color: #FF3F3A;
+}
+
+/* line 433, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 437, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section__text-box {
+  width: 495px;
+  height: 196px;
+  margin-right: 135px;
+}
+
+/* line 441, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section__txt {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 130%;
+  color: #1E212C;
+  margin-bottom: 24px;
+}
+
+/* line 449, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.benefits-section__subtxt {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+
+/* line 460, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section {
+  min-height: 850px;
+  background: rgba(255, 63, 58, 0.2);
+  padding-top: 80px;
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+
+/* line 466, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__container {
+  position: relative;
+}
+
+/* line 468, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__container img {
+  position: absolute;
+  top: -195px;
+  right: -88px;
+  transform: rotate(-90deg);
+}
+
+/* line 473, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+/* line 479, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__list {
+  margin-bottom: 60px;
+}
+
+/* line 481, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__box {
+  width: 1230px;
+  height: 126px;
+  background: #fff;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  transition: 0.4s;
+}
+
+/* line 491, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__box:hover {
+  transform: scale(1.02);
+  transition: 0.4s;
+  cursor: auto;
+  box-shadow: 0px 80px 80px -20px rgba(255, 63, 58, 0.16), 0px 30px 24px -10px rgba(255, 63, 58, 0.1), 0px 12px 10px -6px rgba(255, 63, 58, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+}
+
+/* line 496, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__date {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+/* line 500, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__day {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #FF3F3A;
+  margin-right: 20px;
+}
+
+/* line 510, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__month h3 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+  margin-bottom: 4px;
+}
+
+/* line 518, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__month p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787A80;
+}
+
+/* line 525, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__text {
+  width: 757px;
+  margin-right: 40px;
+}
+
+/* line 528, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__text h3 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+}
+
+/* line 535, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__text p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787A80;
+}
+
+/* line 542, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 546, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__more h2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1E212C;
+  margin-right: 40px;
+}
+
+/* line 554, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__btn {
+  width: 136px;
+  height: 44px;
+}
+
+/* line 557, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.workshops-section__btn-more {
+  width: 214px;
+  height: 52px;
+}
+
+/* line 564, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.certificate-section {
+  min-height: 430px;
+}
+
+/* line 566, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.certificate-section__container {
+  position: relative;
+  display: flex;
+}
+
+/* line 569, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.certificate-section__info {
+  width: 410px;
+  height: 334px;
+}
+
+/* line 572, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.certificate-section__title {
+  margin-bottom: 32px;
+}
+
+/* line 574, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.certificate-section__sub-title {
+  margin-bottom: 8px;
+}
+
+/* line 576, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.certificate-section__txt {
+  font-size: 45px;
+  margin-bottom: 48px;
+}
+
+/* line 580, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.certificate-section__logos img {
+  margin-right: 40px;
+}
+
+/* line 582, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.certificate-section__logos img:last-child {
+  margin-right: 0;
+}
+
+/* line 584, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.certificate-section__certificate {
+  position: absolute;
+  top: 0;
+  right: -100px;
+}
+
+/* line 590, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.subtitle {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+
+/* line 598, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.background {
+  padding-top: 166px;
+  height: 1570px;
+  background: #F4F5F7;
+  margin-bottom: 120px;
+}
+
+/* line 606, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section {
+  min-height: 568px;
+  margin-bottom: 180px;
+}
+
+/* line 609, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__container {
+  position: relative;
+}
+
+/* line 611, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__title {
+  margin-bottom: 60px;
+}
+
+/* line 613, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__button {
+  position: absolute;
+  width: 1252px;
+  top: 44px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* line 619, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__info {
+  position: relative;
+  display: flex;
+}
+
+/* line 622, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__bg {
+  width: 285px;
+  height: 340px;
+  background: #FFCF2D;
+  border-radius: 4px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-right: 30px;
+  margin-bottom: 16px;
+}
+
+/* line 632, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__bg:last-child {
+  margin-right: 0;
+}
+
+/* line 634, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__bg:hover {
+  cursor: pointer;
+}
+
+/* line 636, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__name {
+  text-align: center;
+  margin-bottom: 4px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424551;
+}
+
+/* line 645, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__position {
+  text-align: center;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787A80;
+}
+
+/* line 653, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__block {
+  position: absolute;
+  display: flex;
+}
+
+/* line 656, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__hover {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  width: 285px;
+  height: 340px;
+  margin-right: 30px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: 0.4s;
+  background: linear-gradient(180deg, rgba(30, 33, 44, 0) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.768225) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);
+}
+
+/* line 667, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__hover a {
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+
+/* line 670, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.team-section__hover:hover {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+/* line 673, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.left {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+/* line 677, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.left:hover {
+  background-color: #FF3F3A;
+}
+
+/* line 680, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.right {
+  transform: rotate(-180deg);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+/* line 685, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.right:hover {
+  background-color: #FF3F3A;
+}
+
+/* line 690, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section {
+  min-height: 556px;
+}
+
+/* line 692, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__container {
+  position: relative;
+}
+
+/* line 694, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* line 697, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__box {
+  background: #fff;
+  width: 1020px;
+  height: 344px;
+  margin: 0 auto;
+  padding: 4em 6.5em;
+  margin-bottom: 60px;
+}
+
+/* line 704, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__comments {
+  display: flex;
+}
+
+/* line 707, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__image img {
+  margin-right: 30px;
+}
+
+/* line 709, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__comment-txt {
+  margin-bottom: 24px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424551;
+}
+
+/* line 717, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__person {
+  display: flex;
+  align-items: center;
+}
+
+/* line 720, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__person img {
+  margin-right: 20px;
+}
+
+/* line 722, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1E212C;
+}
+
+/* line 729, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__position {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787A80;
+}
+
+/* line 736, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__button {
+  position: absolute;
+  top: 60%;
+  width: 1242px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+/* line 743, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__slide {
+  text-align: center;
+}
+
+/* line 745, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.testimonials-section__slide img {
+  margin-right: 12px;
+}
+
+/* line 750, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section {
+  min-height: 659px;
+  margin-bottom: 180px;
+}
+
+/* line 753, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__title {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+/* line 758, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__btn {
+  width: 159px;
+  height: 52px;
+}
+
+/* line 761, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__cards {
+  display: flex;
+  align-items: center;
+}
+
+/* line 764, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__card-box {
+  width: 390px;
+  height: 507px;
+  margin-right: 30px;
+}
+
+/* line 768, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__image {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+/* line 771, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__inner {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  padding: 1px 8px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* line 780, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__inner img {
+  margin-right: 6px;
+}
+
+/* line 782, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__inner h3 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #424551;
+}
+
+/* line 789, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__date {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 8px;
+}
+
+/* line 794, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__date h3 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787A80;
+  margin-right: 12px;
+}
+
+/* line 802, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__date h2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787A80;
+  margin-right: 12px;
+}
+
+/* line 810, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__date h2:last-child {
+  margin-right: 0;
+}
+
+/* line 812, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__date img {
+  margin-right: 8px;
+}
+
+/* line 814, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__hr {
+  margin-right: 12px;
+}
+
+/* line 817, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__text h3 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+  margin-bottom: 8px;
+}
+
+/* line 825, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__text p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin-bottom: 16px;
+}
+
+/* line 833, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__blog-button {
+  display: flex;
+  align-items: center;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1E212C;
+}
+
+/* line 842, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.blog-section__blog-button img {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
+
+/* line 847, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.hr {
+  width: 12px;
+  height: 0px;
+  color: #787A80;
+  transform: rotate(90deg);
+}
+
+/* line 855, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.subscribe-section {
+  min-height: 564px;
+  background: rgba(255, 63, 58, 0.2);
+  padding-top: 120px;
+  position: relative;
+}
+
+/* line 860, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.subscribe-section__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* line 863, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.subscribe-section__sub-title {
+  margin-bottom: 8px;
+}
+
+/* line 865, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.subscribe-section__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 869, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.subscribe-section__form input {
+  height: 52px;
+  width: 422px;
+  background: #FFFFFF;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  margin-right: 24px;
+  padding: 0 0 0 16px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/* line 882, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.subscribe-section__btn {
+  width: 154px;
+  height: 52px;
+}
+
+/* line 885, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.subscribe-section__right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 889, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.subscribe-section__left {
+  position: absolute;
+  bottom: 0;
+}
+
+/* line 895, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section {
+  min-height: 395px;
+  background: #1E212C;
+  padding-top: 80px;
+}
+
+/* line 899, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__container {
+  display: flex;
+  min-width: 1230px;
+}
+
+/* line 902, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__logo-title {
+  margin-right: 80px;
+  margin-bottom: 60px;
+}
+
+/* line 905, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__logo-title img {
+  margin-bottom: 24px;
+}
+
+/* line 907, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__logo-title p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+  width: 279px;
+  margin-bottom: 38px;
+}
+
+/* line 917, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__social a {
+  margin-right: 20px;
+  opacity: 0.6;
+}
+
+/* line 920, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__social a:last-child {
+  margin-right: 0;
+}
+
+/* line 922, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__social a:hover {
+  opacity: 1;
+}
+
+/* line 924, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__site-map {
+  margin-right: 80px;
+}
+
+/* line 926, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__site-map:last-child {
+  margin-right: 0;
+}
+
+/* line 928, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__sign-up {
+  position: relative;
+}
+
+/* line 930, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__sign-up input {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  width: 286px;
+  height: 36px;
+  padding-left: 12px;
+  outline: 0;
+  color: white;
+  margin-bottom: 12px;
+}
+
+/* line 940, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__sign-up input:placeholder {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+/* line 948, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__sign-up p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+/* line 956, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__sign-up img {
+  position: absolute;
+  top: 47px;
+  right: 13px;
+}
+
+/* line 960, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__box {
+  background: #282a34;
+  height: 58px;
+}
+
+/* line 963, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__container-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 58px;
+}
+
+/* line 968, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__container-bg h2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+/* line 975, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__container-bg img {
+  margin: 0 3px;
+}
+
+/* line 977, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-section__container-bg a {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+/* line 987, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.contacts__phone::before {
+  content: url("data:image/svg+xml;charset=UTF-8, <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>;\a         <path fill-rule='evenodd' clip-rule='evenodd' d='M5.66683 1.94857C5.11454 1.94857 4.66683 2.39628 4.66683 2.94857V13.0527C4.66683 13.605 5.11454 14.0527 5.66683 14.0527H10.3335C10.8858 14.0527 11.3335 13.605 11.3335 13.0527V2.94857C11.3335 2.39628 10.8858 1.94857 10.3335 1.94857H10.2779L10.1155 2.3382C10.012 2.58661 9.76928 2.74842 9.50016 2.74842H6.50016C6.23105 2.74842 5.98832 2.58661 5.8848 2.3382L5.72242 1.94857H5.66683ZM3.3335 2.94857C3.3335 1.6599 4.37817 0.615234 5.66683 0.615234H10.3335C11.6222 0.615234 12.6668 1.6599 12.6668 2.94857V13.0527C12.6668 14.3414 11.6222 15.3861 10.3335 15.3861H5.66683C4.37816 15.3861 3.3335 14.3414 3.3335 13.0527V2.94857Z' fill='white'/> {}\a         </svg>");
+  margin-right: 8px;
+}
+
+/* line 992, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.contacts__mail::before {
+  content: url("data:image/svg+xml;charset=UTF-8, <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>;\a         <path fill-rule='evenodd' clip-rule='evenodd' d='M15.1668 11.9993V4.66602C15.1668 3.56145 14.2714 2.66602 13.1668 2.66602L2.83349 2.66603C1.72893 2.66603 0.833496 3.56146 0.833496 4.66603V11.9993C0.833496 13.1039 1.72893 13.9993 2.8335 13.9993L13.1668 13.9993C14.2714 13.9993 15.1668 13.1039 15.1668 11.9993ZM13.8335 6.17232V11.9993C13.8335 12.3675 13.535 12.666 13.1668 12.666L2.8335 12.666C2.46531 12.666 2.16683 12.3675 2.16683 11.9993L2.16683 6.17223L6.87561 9.3742C7.55433 9.83573 8.44613 9.83573 9.12485 9.3742L13.8335 6.17232ZM13.8259 4.56509C13.7773 4.24479 13.5007 3.99935 13.1668 3.99935L2.83349 3.99936C2.49965 3.99936 2.22311 4.24476 2.17443 4.56501L7.62535 8.27164C7.8516 8.42548 8.14886 8.42548 8.3751 8.27164L13.8259 4.56509Z' fill='white'/> {}\a         </svg>");
+  margin-right: 8px;
+}
+
+/* line 999, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+/* line 1008, C:/Users/kampa/Desktop/ПРОСТО ЗАДАЧКИ/sass/style.sass */
+.footer-subtext {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,1016 @@
+@import "normalizes.scss"
+@import "resets.scss"
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap')
+$orange-color: #FF3F3A
+$background-color: rgba(255, 63, 58, 0.2)
+$grey-color: #424551
+
+body
+    font-family: 'Lato', sans-serif
+    color: #1E212C
+    background:  #fffffff3
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+a 
+    list-style-type: none
+    text-decoration: none
+    color: black
+    
+button
+    border: none
+    background: rgba(255, 63, 58, 0)
+    &:hover
+        cursor: pointer
+
+.container
+    max-width: 1230px   
+    margin: 0 auto
+
+.main-section   
+    height: 1080px
+    padding-top: 20px
+    margin-bottom: 180px
+    background: $background-color
+    overflow: hidden
+    &__container
+        z-index: 2
+    &__header
+        display: flex
+        height: 52px
+        justify-content: center
+        align-items: center
+        color: #424551
+        margin-bottom: 128px
+    &__logo
+        margin-right: 60px
+    &__login
+        display: flex
+        align-items: center
+    &__content
+        display: flex
+        flex-direction: wrap    
+        justify-content: center
+        align-items: center
+        margin-bottom: 189px
+    &__subcontent
+        display: flex
+        align-items: center
+        justify-content: center
+    &__subcontent-title
+        display: flex
+        align-items: center
+        margin-right: 66px
+        &:last-child
+            margin-right: 0
+    &__dot
+        width: 8px
+        height: 8px
+        border-radius: 100px
+        background: #FF3F3A
+        margin-right: 66px
+    &__title
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 900
+        font-size: 46px
+        line-height: 130%
+        margin-right: 12px
+    &__subtitle
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 160%
+    &__shapes
+        position: absolute
+        right: 85.73%
+        top: 21.2%
+        bottom: 69.91%
+    &__shapes-rotate
+        position: absolute
+        left: 86.88%
+        right: 7.4%
+        top: 3.04%
+        bottom: 86.78%
+    &__semicircle
+        position: absolute
+        width: 61px
+        height: 61px
+        left: 533px
+        top: 758px
+    &__circles
+        position: absolute
+        width: 284px
+        height: 284px
+        left: -10px
+        top: 896px
+    &__dots
+        position: absolute
+        width: 187px
+        height: 137px
+        right: 8px
+        top: 749px
+        opacity: 0.4
+        img 
+            width: 187px
+            height: 137px
+    &__shapes-semicircle
+        position: absolute
+        width: 88px
+        height: 47px
+        left: 582px
+        top: 487px
+
+.btn-bg 
+    color: white
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%)
+    border-radius: 4px
+    transition: 0.4s
+    &:hover
+        transition: 0.4s
+        transform: scale(1.020)
+
+.rotate-shapes
+    transform: rotate(140deg)
+    
+.nav-menu
+    margin-right: 225px
+    &__list
+        display: flex
+    &__list-item
+        margin-right: 40px
+        &:nth-child(5)
+            margin: 0
+        &:hover
+            color: $orange-color
+            transform: scale(1.1)
+
+.login
+    &__btn
+        width: 206px
+        height: 52px
+        margin-right: 36px
+    &__img
+        margin-right: 9px
+
+.btn
+    color: $orange-color
+    border: 1px solid $orange-color
+    background: rgba(255, 64, 58, 0)
+    transition: 0.4s
+    border-radius: 4px
+    &:hover
+            color: white
+            background: $orange-color
+            cursor: pointer
+            transition: 0.4s
+    
+
+.left-wrapper
+    margin-right: 180px
+    &__showreel
+        display: flex
+        justify-content: start
+        align-items: center
+        margin-bottom: 24px
+    &__showreel-bg
+        height: 84px
+        width: 84px
+        display: flex
+        justify-content: center
+        align-items: center
+        transition: 0.4s 
+        &:hover
+            background-color: rgba(255, 63, 58, 0.3) 
+            border-radius: 100px
+            transition: 0.4s
+    &__showreel-subtitle
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        line-height: 150%
+        color: #1E212C
+    &__title
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 900
+        font-size: 64px
+        line-height: 130%
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        margin-bottom: 60px
+    &__btn-small
+        width: 148px
+        height: 52px
+        margin-right: 24px
+    &__btn
+        width: 200px
+        height: 52px
+
+// WHO WE ARE SECTION
+.mark
+    width: 15px
+    height: 14px
+    margin-right: 16px
+    margin-bottom: 24px
+.check
+    margin-bottom: 0
+.we-section
+    position: relative
+    min-height: 560px
+    margin-bottom: 180px
+    &__container
+        min-height: 560px
+    &__img
+        width: 705px
+        height: 560px
+        margin-right: 135px
+    &__why
+    &__container
+        display: flex
+        justify-content: center
+    &__title
+        margin-bottom: 40px
+    &__who
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 700
+        font-size: 16px
+        line-height: 150%
+        letter-spacing: 1px
+        margin-bottom: 8px
+    &__createx
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 900
+        font-size: 46px
+        line-height: 130%
+        color: #1E212C
+    &__subtitle
+        width: 390px
+        height: 294px
+        margin-bottom: 48px
+    &__txt  
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 160%
+        color: $grey-color
+    &__btn
+        width: 161px
+        height: 44px
+    &__flex 
+        display: flex
+        align-items: center
+        margin-bottom: 12px
+    &__dots-yellow
+        position: absolute
+        left: 0%
+        right: 0%
+    &__circle
+        position: absolute
+        right: 0
+        top: 277px
+        opacity: 0.2
+
+.small-title
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 700
+    font-size: 16px
+    line-height: 150%
+    letter-spacing: 1px 
+
+.off-title
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 900
+    font-size: 46px
+    line-height: 130%
+    color: #1E212C
+
+    
+// COURSES SECTION
+
+
+.courses-section    
+    min-height: 854px  
+    margin-bottom: 180px
+    &__container
+    &__btn
+        width: 202px
+        height: 52px
+    &__sub-title
+        margin-bottom: 8px
+    &__title
+        display: flex
+        justify-content: space-between
+        align-items: end
+        margin-bottom: 60px
+    &__course
+        width: 600px
+        height: 214px
+        display: flex
+        align-items: center
+        border-radius: 4px
+        transition: .4s
+        box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03)
+        &:hover
+            box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05)
+            transform: scale(1.050)
+            transition: .4s
+            cursor: auto
+    &__course-box
+        display: flex
+        flex-wrap: wrap
+        width: 1300px
+        min-height: 702px
+
+
+.course
+    margin-right: 30px
+    margin-bottom: 30px
+    img
+        margin-right: 32px
+    &__box
+        background: #03CEA4
+    &__box-2
+        background: #5A87FC
+    &__box-3
+        background: #F89828
+    &__box-4
+        background: #03CEA4
+    &__box-5
+        background: #5A87FC
+    &__box-6
+        background: #F52F6E
+    &__name 
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 150%
+        color: #FFFFFF
+        display: inline-block
+        padding: 0 8px
+        border-radius: 4px
+        margin-bottom: 20px
+    &__title
+        display: flex-block
+        flex-direction: column
+        justify-content: start
+    &__text
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 700
+        font-size: 20px
+        line-height: 150%
+        color: #1E212C
+        margin-bottom: 20px
+    &__subtext
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 18p
+        line-height: 150%
+        color: #787A80
+        span
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 700
+            font-size: 18px
+            line-height: 150%
+            color: #FF4242
+
+// BENEFITS SECTION
+
+.benefits-section
+    min-height: 698px
+    margin-bottom: 120px
+    &__title
+        display: flex
+        flex-direction: column 
+        justify-content: center
+        align-items: center
+        margin-bottom: 60px
+    &__sub-title
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 700
+        font-size: 16px
+        line-height: 150%
+        letter-spacing: 1px
+        text-transform: uppercase
+        color: #1E212C
+    &__buttons  
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 1228px
+        height: 50px
+        margin-bottom: 60px
+        img
+            margin-right: 8px
+    &__button   
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 700
+        font-size: 16px
+        line-height: 160%
+        display: flex
+        align-items: center
+        color: #9A9CA5
+        padding: 10px 74px
+        &:hover
+            border: 1px solid #FF3F3A
+            border-radius: 4px
+            color: #FF3F3A
+    &__box
+        display: flex
+        align-items: center
+        justify-content: center
+    &__text-box 
+        width: 495px    
+        height: 196px
+        margin-right: 135px
+    &__txt
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 900
+        font-size: 32px
+        line-height: 130%
+        color: #1E212C
+        margin-bottom: 24px
+    &__subtxt
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 160%
+        color: #424551
+            
+
+// WORKSHOPS SECTION
+
+.workshops-section
+    min-height: 850px   
+    background: $background-color
+    padding-top: 80px
+    margin-bottom: 120px
+    overflow: hidden
+    &__container
+        position: relative
+        img
+            position: absolute
+            top: -195px
+            right: -88px
+            transform: rotate(-90deg)
+    &__title
+        display: flex
+        flex-direction: column 
+        align-items: center
+        justify-content: center
+        margin-bottom: 60px
+    &__list
+        margin-bottom: 60px
+    &__box
+        width: 1230px
+        height: 126px
+        background: #fff
+        border-radius: 4px
+        margin-bottom: 24px
+        display: flex
+        align-items: center
+        padding-left: 40px 
+        transition: 0.4s
+        &:hover
+            transform: scale(1.020)
+            transition: 0.4s
+            cursor: auto
+            box-shadow: 0px 80px 80px -20px rgba(255, 63, 58, 0.16), 0px 30px 24px -10px rgba(255, 63, 58, 0.1), 0px 12px 10px -6px rgba(255, 63, 58, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05)
+    &__date
+        display: flex
+        align-items: center
+        margin-right: 40px
+    &__day  
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 900
+        font-size: 48px
+        line-height: 130%
+        letter-spacing: 1px
+        color: $orange-color
+        margin-right: 20px
+    &__month
+        h3
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 700
+            font-size: 20px
+            line-height: 150%
+            color: #1E212C
+            margin-bottom: 4px
+        p
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 400
+            font-size: 16px
+            line-height: 160%
+            color: #787A80
+    &__text
+        width: 757px
+        margin-right: 40px
+        h3  
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 700
+            font-size: 20px
+            line-height: 150%
+            color: #1E212C
+        p
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 400
+            font-size: 16px
+            line-height: 160%
+            color: #787A80
+    &__more
+        display: flex
+        align-items: center
+        justify-content: center
+        h2
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 700
+            font-size: 28px
+            line-height: 150%
+            color: #1E212C
+            margin-right: 40px
+    &__btn
+        width: 136px
+        height: 44px
+        &-more
+            width: 214px
+            height: 52px
+
+
+// CERTIFICATE 
+
+.certificate-section
+    min-height: 430px
+    &__container 
+        position: relative
+        display: flex
+    &__info
+        width: 410px
+        height: 334px   
+    &__title
+        margin-bottom: 32px
+    &__sub-title
+        margin-bottom: 8px
+    &__txt
+        font-size: 45px
+        margin-bottom: 48px
+    &__logos
+        img
+            margin-right: 40px
+            &:last-child
+                margin-right: 0
+    &__certificate
+        position: absolute
+        top: 0
+        right: -100px
+
+
+.subtitle
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 160%
+    color: #424551
+
+.background
+    padding-top: 166px
+    height: 1570px
+    background:#F4F5F7
+    margin-bottom: 120px
+
+// TEAM
+
+.team-section    
+    min-height: 568px
+    margin-bottom: 180px
+    &__container
+        position: relative
+    &__title
+        margin-bottom: 60px
+    &__button
+        position: absolute
+        width: 1252px
+        top: 44px
+        display: flex
+        flex-direction: row-reverse
+    &__info
+        position: relative
+        display: flex
+    &__bg
+        width: 285px
+        height: 340px
+        background: #FFCF2D
+        border-radius: 4px
+        display: flex
+        align-items: end
+        justify-content: center
+        margin-right: 30px
+        margin-bottom: 16px
+        &:last-child
+            margin-right: 0
+        &:hover
+            cursor: pointer
+    &__name
+        text-align: center
+        margin-bottom: 4px
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 700
+        font-size: 20px
+        line-height: 150%
+        color: $grey-color
+    &__position
+        text-align: center
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 160%  
+        color: #787A80 
+    &__block      
+        position: absolute
+        display: flex
+    &__hover    
+        display: flex
+        align-items: end
+        justify-content: end
+        width: 285px
+        height: 340px
+        margin-right: 30px
+        border-radius: 4px 
+        opacity: 0
+        transition: 0.4s
+        background: linear-gradient(180deg, rgba(30, 33, 44, 0) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.768225) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%)
+        a
+            margin-right: 15px
+            margin-bottom: 25px
+        &:hover
+            transition: 0.4s
+            opacity: 1
+.left  
+    width: 48px
+    height: 48px
+    border-radius: 50%
+    &:hover
+        background-color: #FF3F3A
+
+.right  
+    transform: rotate(-180deg)
+    width: 48px
+    height: 48px
+    border-radius: 50%
+    &:hover
+        background-color: #FF3F3A
+
+// TESTIMONIALS
+
+.testimonials-section
+    min-height: 556px
+    &__container
+        position: relative
+    &__title
+        text-align: center
+        margin-bottom: 60px
+    &__box
+        background: #fff
+        width: 1020px
+        height: 344px
+        margin: 0 auto
+        padding: 4em 6.5em
+        margin-bottom: 60px
+    &__comments
+       display: flex
+    &__image
+        img
+            margin-right: 30px
+    &__comment-txt
+        margin-bottom: 24px
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 20px
+        line-height: 150%
+        color: #424551
+    &__person
+        display: flex
+        align-items: center
+        img
+            margin-right: 20px 
+    &__name
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 700
+        font-size: 16px
+        line-height: 160%
+        color: #1E212C
+    &__position
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 150%
+        color: #787A80
+    &__button
+        position: absolute
+        top: 60%
+        width: 1242px
+        display: flex
+        flex-direction: row-reverse 
+        justify-content: space-between
+    &__slide
+        text-align: center 
+        img
+            margin-right: 12px  
+        
+// BLOG
+
+.blog-section
+    min-height: 659px
+    margin-bottom: 180px
+    &__title
+        display: flex
+        align-items: end
+        justify-content: space-between 
+        margin-bottom: 60px
+    &__btn
+        width: 159px
+        height: 52px
+    &__cards
+        display: flex
+        align-items: center
+    &__card-box 
+        width: 390px
+        height: 507px
+        margin-right: 30px
+    &__image
+        position: relative
+        margin-bottom: 16px
+    &__inner
+        position: absolute
+        top: 12px
+        left: 12px
+        display: flex
+        align-items: center
+        padding: 1px 8px
+        background: #fff
+        border-radius: 4px
+        img
+            margin-right: 6px
+        h3
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 150%
+            color: #424551
+    &__date
+        display: flex
+        align-items: center
+        justify-content: start
+        margin-bottom: 8px
+        h3
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 700
+            font-size: 14px
+            line-height: 150%
+            color: #787A80
+            margin-right: 12px
+        h2
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 150%
+            color: #787A80
+            margin-right: 12px
+            &:last-child
+                margin-right: 0
+        img
+            margin-right: 8px
+    &__hr
+        margin-right: 12px
+    &__text
+        h3
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 700
+            font-size: 20px
+            line-height: 150%
+            color: #1E212C
+            margin-bottom: 8px
+        p
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 400
+            font-size: 16px
+            line-height: 160%
+            color: #424551
+            margin-bottom: 16px
+    &__blog-button
+        display: flex
+        align-items: center
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 700
+        font-size: 16px
+        line-height: 160%
+        color: #1E212C
+        img
+            width: 24px
+            height: 24px
+            margin-left: 8px
+
+.hr
+    width: 12px
+    height: 0px
+    color: #787A80
+    transform: rotate(90deg)
+
+// SUBSCRIBE
+
+.subscribe-section
+    min-height: 564px
+    background: $background-color
+    padding-top: 120px
+    position: relative
+    &__title
+        text-align: center
+        margin-bottom: 60px
+    &__sub-title
+        margin-bottom: 8px
+    &__form 
+        display: flex
+        justify-content: center
+        align-items: center 
+        input
+            height: 52px
+            width: 422px
+            background: #FFFFFF
+            border: 1px solid #D7DADD
+            border-radius: 4px
+            margin-right: 24px
+            padding: 0 0 0 16px 
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 400
+            font-size: 16px
+            line-height: 160%    
+    &__btn
+        width: 154px
+        height: 52px
+    &__right    
+        position: absolute
+        right: 0
+        bottom: 0
+    &__left
+        position: absolute
+        bottom: 0
+
+// FOOTER
+
+.footer-section
+    min-height: 395px   
+    background: #1E212C
+    padding-top: 80px 
+    &__container
+        display: flex
+        min-width: 1230px
+    &__logo-title
+        margin-right: 80px
+        margin-bottom: 60px
+        img
+            margin-bottom: 24px
+        p
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 400
+            font-size: 12px
+            line-height: 150%
+            color: #FFFFFF
+            width: 279px
+            margin-bottom: 38px 
+    &__social
+        a
+            margin-right: 20px
+            opacity: 0.6
+            &:last-child
+                margin-right: 0
+            &:hover
+                opacity: 1
+    &__site-map
+        margin-right: 80px
+        &:last-child
+            margin-right: 0
+    &__sign-up
+        position: relative
+        input
+            background: rgba(255, 255, 255, 0.12)
+            border: 1px solid rgba(255, 255, 255, 0.2)
+            border-radius: 4px
+            width: 286px
+            height: 36px
+            padding-left: 12px
+            outline: 0
+            color: white
+            margin-bottom: 12px
+            &:placeholder
+                font-family: 'Lato'
+                font-style: normal
+                font-weight: 400
+                font-size: 12px
+                line-height: 150%
+                color: #FFFFFF
+                opacity: 0.6
+        p
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 400
+            font-size: 10px
+            line-height: 150%
+            color: #FFFFFF
+            opacity: 0.6
+        img
+            position: absolute
+            top: 47px
+            right: 13px
+    &__box
+        background: #282a34
+        height: 58px
+    &__container-bg
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 58px
+        h2
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 400
+            font-size: 12px
+            line-height: 150%
+            color: #FFFFFF
+        img
+            margin: 0 3px
+        a
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 700
+            font-size: 14px
+            line-height: 150%
+            color: #FFFFFF
+            opacity: 0.6
+    
+.contacts
+    &__phone::before
+        content: url("data:image/svg+xml;charset=UTF-8, <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+        <path fill-rule='evenodd' clip-rule='evenodd' d='M5.66683 1.94857C5.11454 1.94857 4.66683 2.39628 4.66683 2.94857V13.0527C4.66683 13.605 5.11454 14.0527 5.66683 14.0527H10.3335C10.8858 14.0527 11.3335 13.605 11.3335 13.0527V2.94857C11.3335 2.39628 10.8858 1.94857 10.3335 1.94857H10.2779L10.1155 2.3382C10.012 2.58661 9.76928 2.74842 9.50016 2.74842H6.50016C6.23105 2.74842 5.98832 2.58661 5.8848 2.3382L5.72242 1.94857H5.66683ZM3.3335 2.94857C3.3335 1.6599 4.37817 0.615234 5.66683 0.615234H10.3335C11.6222 0.615234 12.6668 1.6599 12.6668 2.94857V13.0527C12.6668 14.3414 11.6222 15.3861 10.3335 15.3861H5.66683C4.37816 15.3861 3.3335 14.3414 3.3335 13.0527V2.94857Z' fill='white'/>
+        </svg>")
+        margin-right: 8px
+    &__mail::before
+        content: url("data:image/svg+xml;charset=UTF-8, <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+        <path fill-rule='evenodd' clip-rule='evenodd' d='M15.1668 11.9993V4.66602C15.1668 3.56145 14.2714 2.66602 13.1668 2.66602L2.83349 2.66603C1.72893 2.66603 0.833496 3.56146 0.833496 4.66603V11.9993C0.833496 13.1039 1.72893 13.9993 2.8335 13.9993L13.1668 13.9993C14.2714 13.9993 15.1668 13.1039 15.1668 11.9993ZM13.8335 6.17232V11.9993C13.8335 12.3675 13.535 12.666 13.1668 12.666L2.8335 12.666C2.46531 12.666 2.16683 12.3675 2.16683 11.9993L2.16683 6.17223L6.87561 9.3742C7.55433 9.83573 8.44613 9.83573 9.12485 9.3742L13.8335 6.17232ZM13.8259 4.56509C13.7773 4.24479 13.5007 3.99935 13.1668 3.99935L2.83349 3.99936C2.49965 3.99936 2.22311 4.24476 2.17443 4.56501L7.62535 8.27164C7.8516 8.42548 8.14886 8.42548 8.3751 8.27164L13.8259 4.56509Z' fill='white'/>
+        </svg>")
+        margin-right: 8px               
+                
+.footer
+    &-text
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 700
+        font-size: 16px
+        line-height: 150%
+        letter-spacing: 1px
+        color: #FFFFFF
+        margin-bottom: 12px
+    &-subtext
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 160%
+        color: #FFFFFF
+        opacity: 0.6
+        margin-bottom: 8px
